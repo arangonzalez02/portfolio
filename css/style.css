@@ -147,6 +147,17 @@ h4, .boton{
     font-size: 16px;
 }
 
+.barrasuperior-adobe{
+    width: 400px;
+    height: 10px;
+    background-color: #777;
+}
+.barrainferior-clara{
+    width: 450px;
+    height: 10px;
+    background-color: #77777760;
+}
+
 
 
 /* ADAPTAR IMG A UN CONTENEDOR */
