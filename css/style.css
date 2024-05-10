@@ -131,6 +131,7 @@ footer{
 h1{
     font-size: 48px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2{
@@ -139,7 +140,13 @@ h2{
 
 h3{
     font-size: 18px;
+    text-align: center;
 }
+
+h4, .boton{
+    font-size: 16px;
+}
+
 
 
 /* ADAPTAR IMG A UN CONTENEDOR */
@@ -158,6 +165,10 @@ h3{
     position: relative;
 }
 
+.contenedor-img-pequena{
+    width: 500px;
+    height: 400px;
+}
 
 
 
@@ -171,6 +182,10 @@ h3{
 
 .row-columna, header{
     flex-direction: column;
+}
+
+.row-centrado {
+    margin: auto;
 }
 
 
@@ -195,7 +210,6 @@ h3{
     padding: 20px 35px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
     border:none;
 }
 
